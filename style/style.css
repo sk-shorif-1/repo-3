@@ -1,0 +1,45 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+#main{
+    
+    margin: 10px 500px  ;
+}
+
+.food{
+    background-color: rgb(163, 224, 247);
+    display: inline-block;
+    width: 450px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left:120px;
+    margin-top: 50px;
+    box-shadow:10px 5px 30px rgb(82, 106, 150);
+    border:solid skyblue;
+}
+
+#footer1{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    height: 250px;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+.footer2{
+display: inline-block;
+width:250px;
+background-color: cornflowerblue;
+margin-left:300px;
+margin-top:20px;
+text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
