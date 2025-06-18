@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+
+    </header>
+    <main>
+        <fieldset style="background-color: aqua;">
+            <legend>place fill the form</legend>
+            <section>
+        <form>
+            <label for="name">Your Name: <input type="text" id="name" placeholder="your name"></label>
+            
+            <label for="email">Your Email: <input type="email" id="email" placeholder="your email"></label>
+            
+            <label for="number">Your Phone: <input type="number" id="number" placeholder="your phone"></label>
+            <fieldset style="width:300px; margin-bottom: 20px;">
+                <legend>if you have any of those fill it</legend>
+                <label for="mobile"><input type="radio" name="divas" id="mobile">Mobile</label>
+                <label for="pc"><input type="radio" id="pc" name="divas">Computer</label>
+                <label for="both"><input type="radio" id="both" name="divas"> I have both</label>
+            </fieldset>
+            <fieldset style="width:300px; margin-bottom: 20px;">
+                <legend>if you have any of those fill it</legend>
+                <label for="mobile1"><input type="checkbox" name="divas" id="mobile1">Mobile</label>
+                <label for="pc1"><input type="checkbox" id="pc1" name="divas">Computer</label>
+                <label for="both1"><input type="checkbox" id="both1" name="divas"> I have both</label>
+            </fieldset>
+            <input type="reset">
+            <input type="submit" value="send">
+        </form>
+        </section>
+        </fieldset>
+    
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
